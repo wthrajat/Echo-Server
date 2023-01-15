@@ -20,6 +20,7 @@ public class server {
 
                 PrintWriter out = new PrintWriter(soc.getOutputStream(), true);
 
+                
                 out.println("Server message: " + str);
              }
              
